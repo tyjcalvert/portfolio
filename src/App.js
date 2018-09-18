@@ -1,14 +1,27 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
+import Portfolio from "./components/Portfolio";
+import NoMatch from "./components/NoMatch";
+import Footer from "./components/Footer";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-
-      </div>
-    );
-  }
-}
+const App = () => (
+	<Router>
+		<div className="App">
+			<Switch>
+				<Route
+					path={`${process.env.PUBLIC_URL}/`}
+					exact
+					component={Portfolio}
+				/>
+				<Route 
+					path="*" 
+					component={NoMatch} 
+				/>
+			</Switch>
+			<Footer className="footer" />
+		</div>
+	</Router>
+);
 
 export default App;

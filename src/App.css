@@ -1,28 +1,30 @@
-.App {
-  text-align: center;
+body {
+	background: #0375B4;
+	font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.wrapper {
+	max-width: 2400px;
+	margin: 0 auto;	
+	background: #fff;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+
+#projects {
+	background: #0375B4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#0375B4, #025A8A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0375B4, #025A8A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0375B4, #025A8A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0375B4, #025A8A); /* Standard syntax */
 }
 
-.App-title {
-  font-size: 1.5em;
+#headerSection {
+	background: #0375B4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#0375B4, #025A8A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0375B4, #025A8A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0375B4, #025A8A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0375B4, #025A8A); /* Standard syntax */
 }
+ 
 
-.App-intro {
-  font-size: large;
-}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
