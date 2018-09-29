@@ -26,5 +26,21 @@ body {
     background: linear-gradient(#0375B4, #025A8A); /* Standard syntax */
 }
  
+#imgDiv {
+    padding-left: 18%;
+}
 
+#aboutDiv {
+    padding-right: 18%;
+}
+
+@media only screen and (max-width: 768px) {
+    #imgDiv {
+        padding: 0 10px 0 10px;
+    }
+
+    #aboutDiv {
+        padding: 0 10px 0 10px;
+    }
+}
 

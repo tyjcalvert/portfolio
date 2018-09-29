@@ -3,23 +3,21 @@ import Navbar from "../Navbar";
 import HeaderSection from "../HeaderSection";
 import AboutMe from "../AboutMe";
 import Projects from "../Projects";
+import ContactForm from "../ContactForm";
 
 class Portfolio extends Component {
 	state = {};
-
-	style = {
-		marginTop: "15vh"
-	};
 
 	render() {
 		return (
 			<div>
 				<Navbar />
-				<div style={this.style} className="wrapper">
+				<div className="wrapper">
 					<div className="">
 						<HeaderSection />
 						<AboutMe />
 						<Projects />
+						<ContactForm />
 					</div>
 				</div>
 			</div>

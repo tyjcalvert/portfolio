@@ -3,13 +3,16 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const style = {
 	headerSection: {
-		height: "100vh",
+		minHeight: "100vh",
 		display: "flex",
 		flexDirection: "column",
 		alignContent: "center",
 		alignItems: "center",
 		justifyContent: "center",
-		textAlign: "center"
+		textAlign: "center",
+		color: "#fff",
+		marginTop: "10vh"
+		// textShadow: "2px 2px #282828"
 	},
 	a: {
 		margin: "0 5px 0 5px"
@@ -17,18 +20,64 @@ const style = {
 	downArrow: {
 		width: "50px",
 		marginTop: "15vh"
+	},
+	linkSpan: {
+		marginTop: "20px"
+	},
+	img: {
+		width: "80px"
 	}
-}
+};
+
 const HeaderSection = props => (
 	<div id="headerSection" style={style.headerSection} className="">
 		<h1>Hello! I'm Tyler.</h1>
 		<h2>I'm a Full-Stack Web Developer.</h2>
-		<span>
-		<a style={style.a} href=""><img alt="linked in" /></a>
-		<a style={style.a} href=""><img alt="github"/></a>
-		<a style={style.a} href=""><img alt="email" /></a>
+		<span style={style.linkSpan}>
+			<a
+				style={style.a}
+				target="_blank"
+				rel="noreferrer noopener"
+				href="https://www.linkedin.com/in/tyler-calvert-a8695714b/"
+			>
+				<img
+					style={style.img}
+					src="../../assets/images/linkedin.png"
+					alt="linkedin"
+				/>
+			</a>
+			<a
+				style={style.a}
+				target="_blank"
+				rel="noreferrer noopener"
+				href="https://github.com/tyjcalvert"
+			>
+				<img
+					style={style.img}
+					src="../../assets/images/github.png"
+					alt="github"
+				/>
+			</a>
+			<AnchorLink style={style.a} href="#contact">
+				<img
+					style={style.img}
+					src="../../assets/images/gmail.png"
+					alt="email"
+				/>
+			</AnchorLink>
 		</span>
-		<span><AnchorLink href="#about-me"><img className="animated fadeInDown infinite" style={style.downArrow} alt="down arrow" src="../../assets/images/down_arrow.png"/></AnchorLink></span>
+		<span>
+			<AnchorLink offset="70" href="#about-me">
+				<span>
+					<img
+						className="animated fadeInDown infinite"
+						style={style.downArrow}
+						alt="down arrow"
+						src="../../assets/images/down_arrow.png"
+					/>
+				</span>
+			</AnchorLink>
+		</span>
 	</div>
 );
 
