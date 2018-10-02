@@ -1,0 +1,62 @@
+[
+	{
+		"id": 1,
+		"name": "HTML 5",
+		"image": "html"
+	},
+	{
+		"id": 2,
+		"name": "CSS 3",
+		"image": "css"
+	},
+	{
+		"id": 3,
+		"name": "ES 6",
+		"image": "javascript"
+	},
+	{
+		"id": 4,
+		"name": "React.js",
+		"image": "react"
+	},
+	{
+		"id": 5,
+		"name": "React Native",
+		"image": "react-native"
+	},
+	{
+		"id": 6,
+		"name": "Node.js",
+		"image": "node"
+	},
+	{
+		"id": 7,
+		"name": "NPM",
+		"image": "npm"
+	},
+	{
+		"id": 8,
+		"name": "Express.js",
+		"image": "express"
+	},
+	{
+		"id": 9,
+		"name": "MongoDB",
+		"image": "mongo"
+	},
+	{
+		"id": 10,
+		"name": "MySQL",
+		"image": "sql"
+	},
+	{
+		"id": 11,
+		"name": "Git",
+		"image": "git"
+	},
+	{
+		"id": 12,
+		"name": "Python",
+		"image": "python"
+	}
+]

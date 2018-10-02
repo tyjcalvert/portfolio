@@ -11,8 +11,8 @@ const style = {
 		justifyContent: "center",
 		textAlign: "center",
 		color: "#fff",
-		marginTop: "10vh"
-		// textShadow: "2px 2px #282828"
+		marginTop: "10vh",
+		textShadow: "2px 2px #282828"
 	},
 	a: {
 		margin: "0 5px 0 5px"
@@ -42,7 +42,7 @@ const HeaderSection = props => (
 			>
 				<img
 					style={style.img}
-					src="../../assets/images/linkedin.png"
+					src="assets/images/linkedin.png"
 					alt="linkedin"
 				/>
 			</a>
@@ -54,14 +54,14 @@ const HeaderSection = props => (
 			>
 				<img
 					style={style.img}
-					src="../../assets/images/github.png"
+					src="assets/images/github.png"
 					alt="github"
 				/>
 			</a>
 			<AnchorLink style={style.a} href="#contact">
 				<img
 					style={style.img}
-					src="../../assets/images/gmail.png"
+					src="assets/images/gmail.png"
 					alt="email"
 				/>
 			</AnchorLink>
@@ -73,7 +73,7 @@ const HeaderSection = props => (
 						className="animated fadeInDown infinite"
 						style={style.downArrow}
 						alt="down arrow"
-						src="../../assets/images/down_arrow.png"
+						src="assets/images/down_arrow.png"
 					/>
 				</span>
 			</AnchorLink>
