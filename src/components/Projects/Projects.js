@@ -5,14 +5,11 @@ const style = {
 		minHeight: "100vh",
 		display: "flex",
 		justifyContent: "center",
+		alignItems: "center",
 		paddingBottom: "40px"
 	},
 	carouselDiv: {
-		width: "90%",
 		marginTop: "5%"
-		// borderRight: "solid 1px",
-		// borderLeft: "solid 1px",
-		// borderColor: "rgb(213,226,234, 0.2)"
 	},
 	header: {
 		textAlign: "center",
@@ -23,7 +20,7 @@ const style = {
 
 const Projects = props => (
 	<div className="col-12" id="projects" style={style.projectSection}>
-		<div style={style.carouselDiv}>
+		<div id="carouselDiv" style={style.carouselDiv}>
 			<h2 style={style.header}>Portfolio</h2>
 			{props.children}
 		</div>

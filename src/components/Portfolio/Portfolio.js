@@ -21,24 +21,31 @@ class Portfolio extends Component {
 			<div>
 				<Navbar />
 				<div className="wrapper">
-						<HeaderSection />
-						<AboutMe>
-							{this.state.skills.map(skill => (
-								<ImageCard
-									key={skill.id}
-									name={skill.name}
-									image={skill.image}
+					<HeaderSection />
+					<AboutMe>
+						{this.state.skills.map(skill => (
+							<ImageCard
+								key={skill.id}
+								name={skill.name}
+								image={skill.image}
+							/>
+						))}
+					</AboutMe>
+					<Projects>
+						<Carousel showStatus={false} showThumbs={false}>
+							{this.state.portfolio.map(project => (
+								<Card
+									key={project.id}
+									image={project.image}
+									name=""
+									description=""
+									link={""}
+									sourceCode={""}
 								/>
 							))}
-						</AboutMe>
-						<Projects>
-							<Carousel showStatus={false} showThumbs={false}>
-								<Card />
-								<Card />
-								<Card />
-							</Carousel>
-						</Projects>
-						<ContactForm />
+						</Carousel>
+					</Projects>
+					<ContactForm />
 				</div>
 			</div>
 		);

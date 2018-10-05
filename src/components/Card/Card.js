@@ -9,31 +9,29 @@ const style = {
 		alignItems: "center",
 		paddingTop: "20px",
 		backgroundColor: "#D5E2EA"
-	},
-	cardImg: {
-		width: "65%"
 	}
 };
+
+const Link = link => (
+	<a href={`${link}`} className="card-link">
+		Link
+	</a>
+);
 
 const Card = props => (
 	<div style={style.card} className="card">
 		<img
-			style={style.cardImg}
-			className="card-img-top"
-			src="assets/images/fridgefit.png"
+			className="card-img-top cardImg"
+			src={`assets/images/${props.image}.png`}
+			alt={props.name}
 		/>
 		<div className="card-body">
-			<h5 className="card-title">Card title</h5>
-			<p className="card-text">
-				Some quick example text to build on the card title and make up
-				the bulk of the card's content.
-			</p>
-			<a href="#" className="card-link">
-				Card link
+			<h5 className="card-title">{props.name}</h5>
+			<p className="card-text">{props.description}</p>
+			<a href={`${props.sourceCode}`} className="card-link">
+				Source code
 			</a>
-			<a href="#" className="card-link">
-				Another link
-			</a>
+			{props.link ? Link(props.link) : null}
 		</div>
 	</div>
 );

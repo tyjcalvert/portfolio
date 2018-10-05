@@ -3,6 +3,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+ul {
+    padding-inline-start: 0px;
+}
+
 .wrapper {
     max-width: 2400px;
     margin: 0 auto;
@@ -262,7 +266,7 @@ body {
     background: none;
 }
 .carousel .slide img {
-    width: 100%;
+    width: 75%;
     vertical-align: top;
     border: 0;
 }
@@ -342,3 +346,18 @@ body {
 .carousel:hover .slide .legend {
     opacity: 1;
 }
+
+#carouselDiv {
+    width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+    #carouselDiv {
+        width: 100%;
+    }
+    .carousel .slide img {
+        width: 98%;
+    }
+}
+
+

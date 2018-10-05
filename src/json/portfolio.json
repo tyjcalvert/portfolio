@@ -2,61 +2,41 @@
 	{
 		"id": 1,
 		"name": "HTML 5",
-		"image": "html"
+		"image": "fridgefit"
 	},
 	{
 		"id": 2,
 		"name": "CSS 3",
-		"image": "css"
+		"image": "fridgefit"
 	},
 	{
 		"id": 3,
 		"name": "ES 6",
-		"image": "javascript"
+		"image": "fridgefit"
 	},
 	{
 		"id": 4,
 		"name": "React.js",
-		"image": "react"
+		"image": "fridgefit"
 	},
 	{
 		"id": 5,
 		"name": "React Native",
-		"image": "react-native"
+		"image": "fridgefit"
 	},
 	{
 		"id": 6,
 		"name": "Node.js",
-		"image": "node"
+		"image": "fridgefit"
 	},
 	{
 		"id": 7,
 		"name": "NPM",
-		"image": "npm"
+		"image": "fridgefit"
 	},
 	{
 		"id": 8,
 		"name": "Express.js",
-		"image": "express"
-	},
-	{
-		"id": 9,
-		"name": "MongoDB",
-		"image": "mongo"
-	},
-	{
-		"id": 10,
-		"name": "MySQL",
-		"image": "sql"
-	},
-	{
-		"id": 11,
-		"name": "Git",
-		"image": "git"
-	},
-	{
-		"id": 12,
-		"name": "Python",
-		"image": "python"
+		"image": "fridgefit"
 	}
 ]

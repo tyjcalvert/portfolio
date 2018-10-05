@@ -6,7 +6,7 @@ const style = {
 		minHeight: "100vh"
 	},
 	mainRow: {
-		paddingTop: "30px"
+		paddingTop: "60px"
 	},
 	tylerCalvertImg: {
 		width: "250px"
