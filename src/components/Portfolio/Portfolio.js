@@ -37,10 +37,11 @@ class Portfolio extends Component {
 								<Card
 									key={project.id}
 									image={project.image}
-									name=""
-									description=""
-									link={""}
-									sourceCode={""}
+									name={project.name}
+									description={project.description}
+									link={project.link}
+									sourceCode={project.sourceCode}
+									techUsed={project.techUsed}
 								/>
 							))}
 						</Carousel>

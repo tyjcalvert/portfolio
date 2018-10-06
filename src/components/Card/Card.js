@@ -9,11 +9,22 @@ const style = {
 		alignItems: "center",
 		paddingTop: "20px",
 		backgroundColor: "#D5E2EA"
+	},
+	tech: {
+		fontWeight: "bold"
+	},
+	shadow: {
+		textShadow: "1px 1px #999"
 	}
 };
 
 const Link = link => (
-	<a href={`${link}`} className="card-link">
+	<a
+		href={`${link}`}
+		className="card-link"
+		target="_blank"
+		rel="noreferrer noopener"
+	>
 		Link
 	</a>
 );
@@ -26,9 +37,18 @@ const Card = props => (
 			alt={props.name}
 		/>
 		<div className="card-body">
-			<h5 className="card-title">{props.name}</h5>
-			<p className="card-text">{props.description}</p>
-			<a href={`${props.sourceCode}`} className="card-link">
+			<h4 style={style.shadow} className="card-title">{props.name}</h4>
+			<p style={style.shadow} className="card-text">{props.description}</p>
+			<p style={style.shadow} className="card-text">
+				<span style={style.tech}>Technologies used: </span>
+				{props.techUsed}
+			</p>
+			<a
+				href={`${props.sourceCode}`}
+				className="card-link"
+				target="_blank"
+				rel="noreferrer noopener"
+			>
 				Source code
 			</a>
 			{props.link ? Link(props.link) : null}

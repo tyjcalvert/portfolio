@@ -41,7 +41,7 @@ const HeaderSection = props => (
 				href="https://www.linkedin.com/in/tyler-calvert-a8695714b/"
 			>
 				<img
-					style={style.img}
+					className="circleLinks"
 					src="assets/images/linkedin.png"
 					alt="linkedin"
 				/>
@@ -53,14 +53,14 @@ const HeaderSection = props => (
 				href="https://github.com/tyjcalvert"
 			>
 				<img
-					style={style.img}
+					className="circleLinks"
 					src="assets/images/github.png"
 					alt="github"
 				/>
 			</a>
 			<AnchorLink style={style.a} href="#contact">
 				<img
-					style={style.img}
+					className="circleLinks"
 					src="assets/images/gmail.png"
 					alt="email"
 				/>

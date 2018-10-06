@@ -1,42 +1,47 @@
 [
 	{
 		"id": 1,
-		"name": "HTML 5",
-		"image": "fridgefit"
+		"name": "FridgeFit",
+		"image": "fridgefit",
+		"description": "FridgeFit suggests recipes from a list of ingredients you specify, and supplies you with calorie information, and nearby grocery stores to buy those ingredients.",
+		"techUsed": "jQuery, Materialize, Google Maps API, and Edamam API",
+		"sourceCode": "https://github.com/tyjcalvert/fridgefit",
+		"link": "https://tyjcalvert.github.io/fridgefit/"
 	},
 	{
 		"id": 2,
-		"name": "CSS 3",
-		"image": "fridgefit"
+		"name": "HeathHub",
+		"image": "healthhub",
+		"description": "HealthHub is a social fitness app that allows users to track their health, and share their overall fitness goals with their friends.",
+		"techUsed": "React Native, Node.js, MongoDB, Mongoose, and Expo",
+		"sourceCode": "https://github.com/tyjcalvert/HealthHub",
+		"link": ""
 	},
 	{
 		"id": 3,
-		"name": "ES 6",
-		"image": "fridgefit"
+		"name": "Command Line Inventory Manager",
+		"image": "cli",
+		"description": "Tracks inventory levels with a convenient command line tool, and a SQL database.",
+		"techUsed": "Node.js, mySQL, Inquirer, and Chalk",
+		"sourceCode": "https://github.com/tyjcalvert/cli-inventory-system",
+		"link": ""
 	},
 	{
 		"id": 4,
-		"name": "React.js",
-		"image": "fridgefit"
+		"name": "N.Y.T. Scraper",
+		"image": "nyt-scraper",
+		"description": "A simple scraper that scrapes the top articles from the New York Times",
+		"techUsed": "Cheerio, Node.js, MongoDB, jQuery, and Handlebars.js",
+		"sourceCode": "https://github.com/tyjcalvert/nyt-scraper",
+		"link": "https://lit-forest-16479.herokuapp.com/"
 	},
 	{
 		"id": 5,
-		"name": "React Native",
-		"image": "fridgefit"
-	},
-	{
-		"id": 6,
-		"name": "Node.js",
-		"image": "fridgefit"
-	},
-	{
-		"id": 7,
-		"name": "NPM",
-		"image": "fridgefit"
-	},
-	{
-		"id": 8,
-		"name": "Express.js",
-		"image": "fridgefit"
+		"name": "This Portfolio",
+		"image": "portfolio",
+		"description": "The source code for this portfolio",
+		"techUsed": "React and Node.js",
+		"sourceCode": "https://github.com/tyjcalvert/tyjcalvert.github.io",
+		"link": ""
 	}
 ]

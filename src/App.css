@@ -55,7 +55,19 @@ ul {
     padding-right: 18%;
 }
 
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (min-width: 1600px) {
+    #imgDiv {
+        padding-left: 28%;
+    }
+
+    #aboutDiv {
+        padding-right: 28%;
+    }
+}
+
+@media only screen and (max-width: 999px) {
     #imgDiv {
         padding: 0 10px 0 10px;
     }
@@ -64,6 +76,16 @@ ul {
         padding: 0 10px 0 10px;
     }
 }
+
+.circleLinks {
+    width: 80px;
+    opacity: 0.85;
+}
+
+.circleLinks:hover {
+    opacity: 1;
+}
+
 /********************************************
     CAROUSEL CSS
 ********************************************/
