@@ -1,15 +1,6 @@
 [
 	{
 		"id": 1,
-		"name": "FridgeFit",
-		"image": "fridgefit",
-		"description": "FridgeFit suggests recipes from a list of ingredients you specify, and supplies you with calorie information, and nearby grocery stores to buy those ingredients.",
-		"techUsed": "jQuery, Materialize, Google Maps API, and Edamam API",
-		"sourceCode": "https://github.com/tyjcalvert/fridgefit",
-		"link": "https://tyjcalvert.github.io/fridgefit/"
-	},
-	{
-		"id": 2,
 		"name": "HeathHub",
 		"image": "healthhub",
 		"description": "HealthHub is a social fitness app that allows users to track their health, and share their overall fitness goals with their friends.",
@@ -18,7 +9,25 @@
 		"link": ""
 	},
 	{
+		"id": 2,
+		"name": "Clicky Game",
+		"image": "clicky-game",
+		"description": "A simple memory game built in React",
+		"techUsed": "React",
+		"sourceCode": "https://github.com/tyjcalvert/clicky-game",
+		"link": "https://shielded-inlet-68543.herokuapp.com/"
+	},
+	{
 		"id": 3,
+		"name": "FridgeFit",
+		"image": "fridgefit",
+		"description": "FridgeFit suggests recipes from a list of ingredients you specify, and supplies you with calorie information, and nearby grocery stores to buy those ingredients.",
+		"techUsed": "jQuery, Materialize, Google Maps API, and Edamam API",
+		"sourceCode": "https://github.com/tyjcalvert/fridgefit",
+		"link": "https://tyjcalvert.github.io/fridgefit/"
+	},
+	{
+		"id": 4,
 		"name": "Command Line Inventory Manager",
 		"image": "cli",
 		"description": "Tracks inventory levels with a convenient command line tool, and a SQL database.",
@@ -27,7 +36,7 @@
 		"link": ""
 	},
 	{
-		"id": 4,
+		"id": 5,
 		"name": "N.Y.T. Scraper",
 		"image": "nyt-scraper",
 		"description": "A simple scraper that scrapes the top articles from the New York Times",
@@ -36,7 +45,7 @@
 		"link": "https://lit-forest-16479.herokuapp.com/"
 	},
 	{
-		"id": 5,
+		"id": 6,
 		"name": "This Portfolio",
 		"image": "portfolio",
 		"description": "The source code for this portfolio",
